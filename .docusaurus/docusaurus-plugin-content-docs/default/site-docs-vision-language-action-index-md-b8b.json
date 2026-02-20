@@ -1,0 +1,22 @@
+{
+  "id": "vision-language-action/index",
+  "title": "Module 4: Vision-Language-Action (VLA)",
+  "description": "Introduction",
+  "source": "@site/docs/vision-language-action/index.md",
+  "sourceDirName": "vision-language-action",
+  "slug": "/vision-language-action/",
+  "permalink": "/docs/vision-language-action/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+    "permalink": "/docs/ai-robot-brain/"
+  }
+}

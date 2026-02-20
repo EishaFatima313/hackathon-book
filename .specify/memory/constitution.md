@@ -1,55 +1,93 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 1.0.0 → 1.1.0
+Modified principles: None (new constitution created)
+Added sections: All core principles and sections for AI-Native Book with RAG Chatbot
+Removed sections: None
+Templates requiring updates: ✅ .specify/templates/plan-template.md - updated
+                        ✅ .specify/templates/spec-template.md - updated
+                        ✅ .specify/templates/tasks-template.md - updated
+                        ⚠️ .specify/templates/commands/*.md - pending review
+                        ⚠️ README.md - pending review
+Follow-up TODOs: None
+-->
+# AI-Native Book with Integrated RAG Chatbot Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-Driven Development (NON-NEGOTIABLE)
+All development follows Spec-Kit Plus methodology with formal specifications preceding implementation; Every feature must have a complete spec before coding begins; Changes to specs require explicit approval before implementation proceeds.
+<!-- Rationale: Ensures systematic development, reduces rework, and maintains alignment between requirements and deliverables -->
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. AI-First Implementation
+Every component leverages Claude Code and AI-native approaches as the primary development methodology; Manual coding is reserved only for cases where AI assistance is inadequate; All code generation and modification is AI-assisted.
+<!-- Rationale: Maximizes efficiency and leverages cutting-edge AI capabilities for rapid development -->
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Modular Intelligence Architecture
+Intelligence is organized into modular, reusable subagents and agent skills; Clear interfaces between components with well-defined contracts; Components must be independently testable and deployable.
+<!-- Rationale: Enables scalable, maintainable architecture with reusable intelligence modules -->
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Production-Ready Deployment
+All features are developed with production readiness in mind from the start; Includes proper error handling, monitoring, security considerations, and performance optimization; No "development-only" features.
+<!-- Rationale: Ensures stable, reliable production deployments without extensive rework -->
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Source-Grounded RAG (NON-NEGOTIABLE)
+All chatbot responses must be grounded in actual document sources; Hallucinations are strictly prohibited; Retrieved-source citations must be provided with every response.
+<!-- Rationale: Maintains trust and accuracy of the AI system by ensuring all responses are factually grounded -->
 
-### [PRINCIPLE_6_NAME]
+### VI. Clean Architecture Separation
+Strict separation between frontend and backend components; Clear API boundaries with well-defined contracts; Frontend and backend can be developed and deployed independently.
+<!-- Rationale: Enables scalable development and allows for technology flexibility -->
 
+## Technical Standards
 
-[PRINCIPLE__DESCRIPTION]
+### Book Requirements
+- Built with Docusaurus for static site generation
+- Deployed on GitHub Pages for public accessibility
+- Minimum 8 chapters with technical clarity for developers
+- Clean structure with proper navigation and markdown organization
+- Original content only, no copied material
+- Responsive design for multiple device sizes
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### RAG Chatbot Requirements
+- Embedded seamlessly inside the published book interface
+- Backend implemented with FastAPI for high-performance API serving
+- Database: Neon Serverless Postgres for scalability
+- Vector DB: Qdrant Cloud (Free Tier) for semantic search capabilities
+- AI SDK: OpenAI Agents / ChatKit for advanced AI interactions
+- Must support: full-book semantic search, context-grounded answers, "selected text only" answering mode, retrieved-source citation
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Security and Environment
+- Secure environment variables using proper secrets management
+- No hardcoded credentials or API keys in source code
+- Environment-specific configurations properly isolated
+- Authentication and authorization where applicable
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Implementation Standards
+- Follow Spec-Driven Development workflow using Spec-Kit Plus
+- Create specifications before implementation
+- Generate tasks from specifications
+- Implement following the plan and task breakdown
+- Maintain precise code references and testable changes
+
+### Quality Assurance
+- All changes must include appropriate testing
+- Code reviews required for all substantial changes
+- Automated validation of RAG accuracy and grounding
+- Performance testing for search and response times
+- Cross-browser compatibility for the book interface
+
+### Documentation Requirements
+- Comprehensive API documentation with OpenAPI enabled
+- Clear deployment guides with step-by-step instructions
+- Documented ingestion and embedding pipeline processes
+- Architecture decision records for significant choices
+- User guides for both book navigation and chatbot usage
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All development must comply with these constitutional principles; Deviations require explicit approval and documentation; Code reviews verify constitutional compliance; This constitution governs all technical and process decisions for the project.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.1.0 | **Ratified**: 2026-02-13 | **Last Amended**: 2026-02-13

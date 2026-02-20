@@ -1,0 +1,20 @@
+{
+  "id": "ai-robot-control/ai-robot-bridge",
+  "title": "ai-robot-bridge",
+  "description": "---",
+  "source": "@site/docs/ai-robot-control/ai-robot-bridge.md",
+  "sourceDirName": "ai-robot-control",
+  "slug": "/ai-robot-control/ai-robot-bridge",
+  "permalink": "/docs/ai-robot-control/ai-robot-bridge",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ai-robot-control/ai-robot-bridge.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "next": {
+    "title": "Module 2: Digital Twin (Gazebo & Unity)",
+    "permalink": "/docs/digital-twin/"
+  }
+}

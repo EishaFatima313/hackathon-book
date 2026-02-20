@@ -1,0 +1,26 @@
+{
+  "id": "ros2-basics/examples/custom-messages",
+  "title": "Custom Messages Tutorial",
+  "description": "In this tutorial, you'll learn to create custom message types for your ROS 2 applications.",
+  "source": "@site/docs/ros2-basics/examples/custom-messages.md",
+  "sourceDirName": "ros2-basics/examples",
+  "slug": "/ros2-basics/examples/custom-messages",
+  "permalink": "/docs/ros2-basics/examples/custom-messages",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Service Tutorial",
+    "permalink": "/docs/ros2-basics/examples/service-tutorial"
+  },
+  "next": {
+    "title": "Exercises & Practice",
+    "permalink": "/docs/ros2-basics/exercises"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ros2-basics/setup",
+  "title": "ROS 2 Setup Guide",
+  "description": "This guide will help you install ROS 2 and create your first workspace.",
+  "source": "@site/docs/ros2-basics/setup.md",
+  "sourceDirName": "ros2-basics",
+  "slug": "/ros2-basics/setup",
+  "permalink": "/docs/ros2-basics/setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "ROS 2 Core Concepts",
+    "permalink": "/docs/ros2-basics/core-concepts"
+  },
+  "next": {
+    "title": "Publisher Tutorial",
+    "permalink": "/docs/ros2-basics/examples/publisher-tutorial"
+  }
+}

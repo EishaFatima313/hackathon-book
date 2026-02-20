@@ -1,0 +1,26 @@
+{
+  "id": "ros2-basics/examples/publisher-tutorial",
+  "title": "Publisher Tutorial",
+  "description": "In this tutorial, you'll create a ROS 2 publisher node that sends messages to a topic.",
+  "source": "@site/docs/ros2-basics/examples/publisher-tutorial.md",
+  "sourceDirName": "ros2-basics/examples",
+  "slug": "/ros2-basics/examples/publisher-tutorial",
+  "permalink": "/docs/ros2-basics/examples/publisher-tutorial",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "ROS 2 Setup Guide",
+    "permalink": "/docs/ros2-basics/setup"
+  },
+  "next": {
+    "title": "Subscriber Tutorial",
+    "permalink": "/docs/ros2-basics/examples/subscriber-tutorial"
+  }
+}

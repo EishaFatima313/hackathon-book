@@ -1,0 +1,23 @@
+{
+  "id": "ros2-basics/ros2-intro",
+  "title": "ROS 2 Basics",
+  "description": "Introduction to ROS 2",
+  "source": "@site/docs/ros2-basics/ros2-intro.md",
+  "sourceDirName": "ros2-basics",
+  "slug": "/ros2-basics/ros2-intro",
+  "permalink": "/docs/ros2-basics/ros2-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ros2-basics/ros2-intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/docs/vision-language-action/"
+  }
+}

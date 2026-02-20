@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-urdf/humanoid-structure",
+  "title": "Humanoid Structure with URDF",
+  "description": "Introduction to URDF",
+  "source": "@site/docs/humanoid-urdf/humanoid-structure.md",
+  "sourceDirName": "humanoid-urdf",
+  "slug": "/humanoid-urdf/humanoid-structure",
+  "permalink": "/docs/humanoid-urdf/humanoid-structure",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-urdf/humanoid-structure.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+    "permalink": "/docs/ai-robot-brain/"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/docs/vision-language-action/"
+  }
+}

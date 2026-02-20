@@ -1,0 +1,26 @@
+{
+  "id": "digital-twin/index",
+  "title": "Module 2: Digital Twin (Gazebo & Unity)",
+  "description": "Welcome to Digital Twins!",
+  "source": "@site/docs/digital-twin/index.md",
+  "sourceDirName": "digital-twin",
+  "slug": "/digital-twin/",
+  "permalink": "/docs/digital-twin/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Exercises & Practice",
+    "permalink": "/docs/ros2-basics/exercises"
+  },
+  "next": {
+    "title": "Chapter 1: Gazebo Basics & Robot Simulation",
+    "permalink": "/docs/digital-twin/gazebo-basics"
+  }
+}

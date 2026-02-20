@@ -1,0 +1,26 @@
+{
+  "id": "ai-robot-brain/index",
+  "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
+  "description": "Introduction",
+  "source": "@site/docs/ai-robot-brain/index.md",
+  "sourceDirName": "ai-robot-brain",
+  "slug": "/ai-robot-brain/",
+  "permalink": "/docs/ai-robot-brain/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chapter 3: Sensor Simulation & Testing",
+    "permalink": "/docs/digital-twin/sensor-simulation"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/docs/vision-language-action/"
+  }
+}

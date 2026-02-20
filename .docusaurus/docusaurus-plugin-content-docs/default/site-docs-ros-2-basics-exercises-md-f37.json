@@ -1,0 +1,26 @@
+{
+  "id": "ros2-basics/exercises",
+  "title": "Exercises & Practice",
+  "description": "Test your ROS 2 knowledge with these hands-on exercises!",
+  "source": "@site/docs/ros2-basics/exercises.md",
+  "sourceDirName": "ros2-basics",
+  "slug": "/ros2-basics/exercises",
+  "permalink": "/docs/ros2-basics/exercises",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Custom Messages Tutorial",
+    "permalink": "/docs/ros2-basics/examples/custom-messages"
+  },
+  "next": {
+    "title": "Module 2: Digital Twin (Gazebo & Unity)",
+    "permalink": "/docs/digital-twin/"
+  }
+}

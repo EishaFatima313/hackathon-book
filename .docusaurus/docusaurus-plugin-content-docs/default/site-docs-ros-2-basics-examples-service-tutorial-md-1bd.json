@@ -1,0 +1,26 @@
+{
+  "id": "ros2-basics/examples/service-tutorial",
+  "title": "Service Tutorial",
+  "description": "In this tutorial, you'll create ROS 2 services and clients for request/response communication.",
+  "source": "@site/docs/ros2-basics/examples/service-tutorial.md",
+  "sourceDirName": "ros2-basics/examples",
+  "slug": "/ros2-basics/examples/service-tutorial",
+  "permalink": "/docs/ros2-basics/examples/service-tutorial",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Subscriber Tutorial",
+    "permalink": "/docs/ros2-basics/examples/subscriber-tutorial"
+  },
+  "next": {
+    "title": "Custom Messages Tutorial",
+    "permalink": "/docs/ros2-basics/examples/custom-messages"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ros2-basics/introduction",
+  "title": "Introduction to ROS 2",
+  "description": "Welcome to Module 1: ROS 2 Basics!",
+  "source": "@site/docs/ros2-basics/introduction.md",
+  "sourceDirName": "ros2-basics",
+  "slug": "/ros2-basics/introduction",
+  "permalink": "/docs/ros2-basics/introduction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "ROS 2 Core Concepts",
+    "permalink": "/docs/ros2-basics/core-concepts"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "ros2-basics/introduction",
+          "docs": [
+            {
+              "id": "ai-robot-brain/index",
+              "path": "/docs/ai-robot-brain/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ai-robot-control/ai-robot-bridge",
+              "path": "/docs/ai-robot-control/"
+            },
+            {
+              "id": "digital-twin/digital-twin-unity",
+              "path": "/docs/digital-twin/digital-twin-unity",
+              "sidebar": "docs"
+            },
+            {
+              "id": "digital-twin/gazebo-basics",
+              "path": "/docs/digital-twin/gazebo-basics",
+              "sidebar": "docs"
+            },
+            {
+              "id": "digital-twin/index",
+              "path": "/docs/digital-twin/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "digital-twin/sensor-simulation",
+              "path": "/docs/digital-twin/sensor-simulation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/core-concepts",
+              "path": "/docs/ros2-basics/core-concepts",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/examples/custom-messages",
+              "path": "/docs/ros2-basics/examples/custom-messages",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/examples/publisher-tutorial",
+              "path": "/docs/ros2-basics/examples/publisher-tutorial",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/examples/service-tutorial",
+              "path": "/docs/ros2-basics/examples/service-tutorial",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/examples/subscriber-tutorial",
+              "path": "/docs/ros2-basics/examples/subscriber-tutorial",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/exercises",
+              "path": "/docs/ros2-basics/exercises",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/introduction",
+              "path": "/docs/ros2-basics/introduction",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ros2-basics/setup",
+              "path": "/docs/ros2-basics/setup",
+              "sidebar": "docs"
+            },
+            {
+              "id": "vision-language-action/index",
+              "path": "/docs/vision-language-action/",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/ros2-basics/introduction",
+                "label": "ros2-basics/introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

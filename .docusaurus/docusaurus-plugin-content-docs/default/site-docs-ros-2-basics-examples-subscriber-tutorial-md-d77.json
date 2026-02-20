@@ -1,0 +1,26 @@
+{
+  "id": "ros2-basics/examples/subscriber-tutorial",
+  "title": "Subscriber Tutorial",
+  "description": "In this tutorial, you'll create a ROS 2 subscriber node that receives messages from a topic.",
+  "source": "@site/docs/ros2-basics/examples/subscriber-tutorial.md",
+  "sourceDirName": "ros2-basics/examples",
+  "slug": "/ros2-basics/examples/subscriber-tutorial",
+  "permalink": "/docs/ros2-basics/examples/subscriber-tutorial",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Publisher Tutorial",
+    "permalink": "/docs/ros2-basics/examples/publisher-tutorial"
+  },
+  "next": {
+    "title": "Service Tutorial",
+    "permalink": "/docs/ros2-basics/examples/service-tutorial"
+  }
+}
