@@ -12,6 +12,23 @@ export default {
   "organizationName": "your-github-username",
   "projectName": "robotics-education-platform",
   "onBrokenLinks": "throw",
+  "markdown": {
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
+    },
+    "format": "mdx",
+    "mermaid": false,
+    "emoji": true,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    }
+  },
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -25,7 +42,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\dell\\OneDrive\\Desktop\\hackathon-1\\sidebars.js"
+          "sidebarPath": "C:\\Users\\dell\\OneDrive\\Desktop\\hackathon-1\\sidebars.js",
+          "editUrl": "https://github.com/your-github-username/robotics-education-platform/edit/main/",
+          "showLastUpdateAuthor": true,
+          "showLastUpdateTime": true,
+          "routeBasePath": "/docs"
         },
         "blog": false,
         "theme": {
@@ -36,12 +57,20 @@ export default {
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true
+    },
     "navbar": {
       "title": "Robotics Education",
       "logo": {
         "alt": "Robotics Logo",
-        "src": "img/docusaurus-logo-png.png"
+        "src": "img/docusaurus-logo-png.png",
+        "width": 32,
+        "height": 32
       },
+      "hideOnScroll": false,
       "items": [
         {
           "type": "docSidebar",
@@ -50,12 +79,28 @@ export default {
           "label": "Modules"
         },
         {
+          "type": "dropdown",
+          "label": "Resources",
+          "position": "left",
+          "items": [
+            {
+              "label": "Code Examples",
+              "to": "/docs/code-examples/"
+            },
+            {
+              "label": "AI Robot Control",
+              "to": "/docs/ai-robot-control/"
+            }
+          ]
+        },
+        {
           "href": "https://github.com/your-github-username/robotics-education-platform",
           "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link",
+          "aria-label": "GitHub repository"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "footer": {
       "style": "dark",
@@ -66,11 +111,19 @@ export default {
             {
               "label": "ROS 2 Introduction",
               "to": "/docs/ros2-basics/introduction"
+            },
+            {
+              "label": "Setup Guide",
+              "to": "/docs/ros2-basics/setup"
+            },
+            {
+              "label": "Tutorials",
+              "to": "/docs/ros2-basics/examples/publisher-tutorial"
             }
           ]
         },
         {
-          "title": "Platform",
+          "title": "Advanced Topics",
           "items": [
             {
               "label": "Digital Twin",
@@ -79,11 +132,32 @@ export default {
             {
               "label": "AI Robot Brain",
               "to": "/docs/ai-robot-brain/"
+            },
+            {
+              "label": "Vision-Language-Action",
+              "to": "/docs/vision-language-action/"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "items": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/your-github-username/robotics-education-platform"
+            },
+            {
+              "label": "Discussions",
+              "href": "https://github.com/your-github-username/robotics-education-platform/discussions"
+            },
+            {
+              "label": "Issues",
+              "href": "https://github.com/your-github-username/robotics-education-platform/issues"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2026 Robotics Education Platform"
+      "copyright": "Copyright © 2026 Robotics Education Platform. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -277,7 +351,14 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "python",
+        "bash",
+        "json",
+        "yaml",
+        "docker",
+        "cmake"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -289,29 +370,45 @@ export default {
         }
       ]
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 5
     },
     "docs": {
-      "versionPersistence": "localStorage",
       "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
+        "hideable": true,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
     },
+    "metadata": [
+      {
+        "name": "keywords",
+        "content": "robotics, ROS 2, AI, digital twin, simulation, Gazebo, Unity, NVIDIA Isaac, VLA, humanoid robots"
+      },
+      {
+        "name": "description",
+        "content": "Comprehensive robotics education platform covering ROS 2, AI integration, digital twins, and advanced robot control."
+      },
+      {
+        "name": "author",
+        "content": "Robotics Education Platform"
+      },
+      {
+        "name": "robots",
+        "content": "index, follow"
+      }
+    ],
     "blog": {
       "sidebar": {
         "groupByYear": true
       }
-    },
-    "metadata": [],
-    "tableOfContents": {
-      "minHeadingLevel": 2,
-      "maxHeadingLevel": 3
     }
   },
+  "plugins": [],
+  "clientModules": [],
+  "stylesheets": [],
+  "scripts": [],
   "baseUrlIssueBanner": true,
   "future": {
     "v4": {
@@ -340,29 +437,8 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
-  "scripts": [],
   "headTags": [],
-  "stylesheets": [],
-  "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "format": "mdx",
-    "mermaid": false,
-    "emoji": true,
-    "mdx1Compat": {
-      "comments": true,
-      "admonitions": true,
-      "headingIds": true
-    },
-    "anchors": {
-      "maintainCase": false
-    },
-    "hooks": {
-      "onBrokenMarkdownLinks": "warn",
-      "onBrokenMarkdownImages": "throw"
-    }
-  }
+  "noIndex": false
 };

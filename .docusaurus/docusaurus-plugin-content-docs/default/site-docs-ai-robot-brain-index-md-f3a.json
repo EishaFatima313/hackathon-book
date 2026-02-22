@@ -8,8 +8,11 @@
   "permalink": "/docs/ai-robot-brain/",
   "draft": false,
   "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/robotics-education-platform/edit/main/docs/ai-robot-brain/index.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3

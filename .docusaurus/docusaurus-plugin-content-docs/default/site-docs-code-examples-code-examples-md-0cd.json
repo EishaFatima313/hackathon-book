@@ -1,0 +1,29 @@
+{
+  "id": "code-examples/code-examples",
+  "title": "Code Examples",
+  "description": "This section contains reusable code examples and templates for your robotics projects.",
+  "source": "@site/docs/code-examples/code-examples.md",
+  "sourceDirName": "code-examples",
+  "slug": "/code-examples/",
+  "permalink": "/docs/code-examples/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/robotics-education-platform/edit/main/docs/code-examples/code-examples.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "title": "Code Examples",
+    "sidebar_label": "Code Examples"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/docs/vision-language-action/"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/ai-robot-control/"
+  }
+}

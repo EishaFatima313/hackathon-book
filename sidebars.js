@@ -25,7 +25,7 @@ const sidebars = {
       type: 'category',
       label: 'Module 2: Digital Twin (Gazebo & Unity)',
       items: [
-        'digital-twin/index',  // ✅ FIXED
+        'digital-twin/index',
         'digital-twin/gazebo-basics',
         'digital-twin/digital-twin-unity',
         'digital-twin/sensor-simulation',
@@ -36,7 +36,7 @@ const sidebars = {
       type: 'category',
       label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac)',
       items: [
-        'ai-robot-brain/index',  // ✅ FIXED
+        'ai-robot-brain/index',
       ],
     },
 
@@ -44,7 +44,16 @@ const sidebars = {
       type: 'category',
       label: 'Module 4: Vision-Language-Action (VLA)',
       items: [
-        'vision-language-action/index',  // ✅ FIXED
+        'vision-language-action/index',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Resources',
+      items: [
+        'code-examples/code-examples',
+        'ai-robot-control/index',
       ],
     },
   ],

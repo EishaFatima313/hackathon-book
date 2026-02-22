@@ -42,76 +42,84 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-173": {
+  "/docs-5c9": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-eb9": {
+  "/docs-e7b": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-725": {
+  "/docs-1bc": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/ai-robot-brain/-a7f": {
+  "/docs/ai-robot-brain/-a71": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ai-robot-brain-f-3-a-332"
   },
-  "/docs/ai-robot-control/-935": {
+  "/docs/ai-robot-control/-70b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ai-robot-control-7-ac-311"
   },
-  "/docs/digital-twin/-a52": {
+  "/docs/ai-robot-control/ai-robot-bridge-454": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ai-robot-control-ai-robot-bridge-899-6b3"
+  },
+  "/docs/code-examples/-314": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-examples-0-cd-083"
+  },
+  "/docs/digital-twin/-e82": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-digital-twin-cd-9-388"
   },
-  "/docs/digital-twin/digital-twin-unity-cd9": {
+  "/docs/digital-twin/digital-twin-unity-7d1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-digital-twin-digital-twin-unitye-98-779"
   },
-  "/docs/digital-twin/gazebo-basics-60d": {
+  "/docs/digital-twin/gazebo-basics-c75": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-digital-twin-gazebo-basicsbf-6-eea"
   },
-  "/docs/digital-twin/sensor-simulation-ea6": {
+  "/docs/digital-twin/sensor-simulation-c81": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-digital-twin-sensor-simulationa-34-368"
   },
-  "/docs/ros2-basics/core-concepts-5c6": {
+  "/docs/ros2-basics/core-concepts-5d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-core-concepts-139-292"
   },
-  "/docs/ros2-basics/examples/custom-messages-57d": {
+  "/docs/ros2-basics/examples/custom-messages-8dc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-examples-custom-messagesa-0-d-60e"
   },
-  "/docs/ros2-basics/examples/publisher-tutorial-817": {
+  "/docs/ros2-basics/examples/publisher-tutorial-c91": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-examples-publisher-tutorial-124-13a"
   },
-  "/docs/ros2-basics/examples/service-tutorial-e43": {
+  "/docs/ros2-basics/examples/service-tutorial-232": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-examples-service-tutorial-1-bd-524"
   },
-  "/docs/ros2-basics/examples/subscriber-tutorial-f88": {
+  "/docs/ros2-basics/examples/subscriber-tutorial-a5e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-examples-subscriber-tutoriald-77-387"
   },
-  "/docs/ros2-basics/exercises-620": {
+  "/docs/ros2-basics/exercises-c60": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-exercisesf-37-2e0"
   },
-  "/docs/ros2-basics/introduction-c6b": {
+  "/docs/ros2-basics/introduction-bdd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-introduction-74-f-08d"
   },
-  "/docs/ros2-basics/setup-139": {
+  "/docs/ros2-basics/setup-a8e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ros-2-basics-setup-893-cbc"
   },
-  "/docs/vision-language-action/-eca": {
+  "/docs/vision-language-action/-3a7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-vision-language-action-b-8-b-d95"
   },

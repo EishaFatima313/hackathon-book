@@ -8,8 +8,11 @@
   "permalink": "/docs/digital-twin/gazebo-basics",
   "draft": false,
   "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/robotics-education-platform/edit/main/docs/digital-twin/gazebo-basics.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1

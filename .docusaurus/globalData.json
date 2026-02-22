@@ -17,7 +17,17 @@
             },
             {
               "id": "ai-robot-control/ai-robot-bridge",
-              "path": "/docs/ai-robot-control/"
+              "path": "/docs/ai-robot-control/ai-robot-bridge"
+            },
+            {
+              "id": "ai-robot-control/index",
+              "path": "/docs/ai-robot-control/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "code-examples/code-examples",
+              "path": "/docs/code-examples/",
+              "sidebar": "docs"
             },
             {
               "id": "digital-twin/digital-twin-unity",

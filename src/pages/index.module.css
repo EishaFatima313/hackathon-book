@@ -1,40 +1,527 @@
 /**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * Modern Homepage Styles
+ * Robotics Education Platform
  */
 
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* ============================================
+   HERO SECTION
+   ============================================ */
 
- .heroBanner {
-  padding: 80px 0;
-  background-color: #2e8555;
+.heroBanner {
+  padding: 6rem 0 5rem;
+  background: linear-gradient(135deg, var(--ifm-color-emphasis-900) 0%, var(--ifm-color-emphasis-800) 100%);
   text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(8, 145, 178, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(34, 211, 238, 0.2) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+html[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, var(--ifm-color-primary-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--ifm-color-emphasis-300);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  color: var(--ifm-color-emphasis-400);
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.heroButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--ifm-transition-normal) var(--ifm-transition-timing-default);
+}
+
+.heroButton svg {
+  transition: transform var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.heroButton:hover svg {
+  transform: translateX(4px);
+}
+
+.heroButtonSecondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
 }
 
-.buttons {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+.heroButtonSecondary:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
+
+/* ============================================
+   FEATURES SECTION
+   ============================================ */
 
 .features {
-  padding: 60px 0;
-  text-align: center;
+  padding: 5rem 0;
+  background-color: var(--ifm-background-surface-color);
 }
 
-.featureImage {
-  height: 200px;
-  width: 200px;
+.featuresHeader {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 4rem;
+}
+
+.featuresTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-900);
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+
+.featuresSubtitle {
+  font-size: 1.125rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.7;
+}
+
+.featureCol {
+  margin-bottom: 1.5rem;
+}
+
+.featureLink {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.featureCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--ifm-transition-normal) var(--ifm-transition-timing-default);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-color);
+}
+
+html[data-theme='dark'] .featureCard {
+  border-color: var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+}
+
+.featureCard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--ifm-global-shadow-xl);
+  border-color: var(--ifm-color-primary);
+}
+
+.featureCardIcon {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: var(--ifm-color-primary);
+}
+
+.featureCardBody {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.featureCardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-900);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.featureCardText {
+  font-size: 0.9375rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.7;
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.featureCardLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  transition: gap var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.featureCardLink svg {
+  transition: transform var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.featureCard:hover .featureCardLink svg {
+  transform: translateX(4px);
+}
+
+/* ============================================
+   QUICK START SECTION
+   ============================================ */
+
+.quickStart {
+  padding: 5rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.quickStartContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.quickStartText {
+  max-width: 500px;
+}
+
+.quickStartTitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-900);
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.quickStartDescription {
+  font-size: 1.0625rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.quickStartButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.quickStartVisual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codePreview {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+  box-shadow: var(--ifm-global-shadow-xl);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-color-emphasis-900);
+}
+
+html[data-theme='dark'] .codePreview {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+.codePreviewHeader {
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.codePreviewDots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.codePreviewDots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.codePreviewDots span:first-child {
+  background: #ff5f56;
+}
+
+.codePreviewDots span:nth-child(2) {
+  background: #ffbd2e;
+}
+
+.codePreviewDots span:last-child {
+  background: #27ca40;
+}
+
+.codePreviewBody {
+  margin: 0;
+  padding: 1.5rem;
+  overflow-x: auto;
+}
+
+.codePreviewBody code {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  color: #e2e8f0;
+  white-space: pre;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 1200px) {
+  .heroTitle {
+    font-size: 3rem;
+  }
+
+  .featuresTitle {
+    font-size: 2.25rem;
+  }
+
+  .quickStartTitle {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 40px 10px;
+    padding: 4rem 0 3rem;
   }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+
+  .features {
+    padding: 4rem 0;
+  }
+
+  .featuresTitle {
+    font-size: 2rem;
+  }
+
+  .featuresSubtitle {
+    font-size: 1rem;
+  }
+
+  .quickStart {
+    padding: 4rem 0;
+  }
+
+  .quickStartContent {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .quickStartText {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .quickStartButtons {
+    justify-content: center;
+  }
+
+  .quickStartVisual {
+    order: -1;
+  }
+
+  .codePreview {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 0 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroButton {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .features {
+    padding: 3rem 0;
+  }
+
+  .featuresTitle {
+    font-size: 1.75rem;
+  }
+
+  .quickStart {
+    padding: 3rem 0;
+  }
+
+  .quickStartTitle {
+    font-size: 1.75rem;
+  }
+
+  .quickStartDescription {
+    font-size: 1rem;
+  }
+
+  .quickStartButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quickStartButtons .button {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heroBanner {
+    padding: 2.5rem 1rem 2rem;
+  }
+
+  .heroTitle {
+    font-size: 1.75rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.125rem;
+  }
+
+  .heroDescription {
+    font-size: 0.9375rem;
+  }
+
+  .features {
+    padding: 2.5rem 0;
+  }
+
+  .featuresTitle {
+    font-size: 1.5rem;
+  }
+
+  .quickStart {
+    padding: 2.5rem 0;
+  }
+
+  .quickStartTitle {
+    font-size: 1.5rem;
+  }
+
+  .codePreviewBody {
+    padding: 1rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heroContent {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.features {
+  animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.quickStart {
+  animation: fadeInUp 0.8s ease-out 0.4s backwards;
+}
+
+/* ============================================
+   DARK MODE ADJUSTMENTS
+   ============================================ */
+
+html[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+html[data-theme='dark'] .featureCard {
+  background: var(--ifm-background-color);
+}
+
+html[data-theme='dark'] .codePreview {
+  background: #1e293b;
 }

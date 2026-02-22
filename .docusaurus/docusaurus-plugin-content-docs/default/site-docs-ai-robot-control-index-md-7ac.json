@@ -1,19 +1,27 @@
 {
-  "id": "ai-robot-control/ai-robot-bridge",
-  "title": "AI Agents → Robot Control",
-  "description": "Connecting AI Agents to ROS Controllers",
+  "id": "ai-robot-control/index",
+  "title": "AI Robot Control",
+  "description": "This section covers how to connect AI agents to ROS 2 robot controllers, enabling intelligent autonomous behaviors.",
   "source": "@site/docs/ai-robot-control/index.md",
   "sourceDirName": "ai-robot-control",
   "slug": "/ai-robot-control/",
   "permalink": "/docs/ai-robot-control/",
   "draft": false,
   "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/robotics-education-platform/edit/main/docs/ai-robot-control/index.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {
-    "id": "ai-robot-bridge",
-    "title": "AI Agents → Robot Control",
+    "title": "AI Robot Control",
+    "sidebar_label": "Overview",
     "sidebar_position": 1
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Code Examples",
+    "permalink": "/docs/code-examples/"
   }
 }

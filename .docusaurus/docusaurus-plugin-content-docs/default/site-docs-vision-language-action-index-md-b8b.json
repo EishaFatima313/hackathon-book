@@ -8,8 +8,11 @@
   "permalink": "/docs/vision-language-action/",
   "draft": false,
   "unlisted": false,
+  "editUrl": "https://github.com/your-github-username/robotics-education-platform/edit/main/docs/vision-language-action/index.md",
   "tags": [],
   "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 4,
   "frontMatter": {
     "sidebar_position": 4
@@ -18,5 +21,9 @@
   "previous": {
     "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac)",
     "permalink": "/docs/ai-robot-brain/"
+  },
+  "next": {
+    "title": "Code Examples",
+    "permalink": "/docs/code-examples/"
   }
 }

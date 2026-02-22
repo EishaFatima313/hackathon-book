@@ -1,0 +1,130 @@
+/**
+ * Step by Step Component Styles
+ */
+
+.stepGroup {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: var(--ifm-global-radius);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+html[data-theme='dark'] .stepGroup {
+  background-color: var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+.step {
+  position: relative;
+  padding-left: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step::before {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  top: 2.5rem;
+  bottom: -2rem;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--ifm-color-primary), var(--ifm-color-emphasis-300));
+}
+
+.step:last-child::before {
+  display: none;
+}
+
+.stepHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.stepNumber {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--ifm-font-weight-bold);
+  font-size: 1rem;
+  box-shadow: var(--ifm-global-shadow-md);
+  z-index: 1;
+}
+
+.stepTitle {
+  font-size: 1.25rem;
+  font-weight: var(--ifm-font-weight-semibold);
+  color: var(--ifm-color-emphasis-900);
+  margin: 0;
+}
+
+.stepContent {
+  color: var(--ifm-color-emphasis-600);
+  line-height: var(--ifm-line-height-base);
+}
+
+.stepContent p {
+  margin-bottom: 1rem;
+}
+
+.stepContent p:last-child {
+  margin-bottom: 0;
+}
+
+.stepContent pre {
+  margin: 1rem 0;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .stepGroup {
+    padding: 1rem;
+  }
+
+  .step {
+    padding-left: 3rem;
+  }
+
+  .stepNumber {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.875rem;
+  }
+
+  .step::before {
+    left: 1rem;
+  }
+
+  .stepTitle {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .step {
+    padding-left: 2.75rem;
+  }
+
+  .stepNumber {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.75rem;
+  }
+
+  .step::before {
+    left: 0.875rem;
+  }
+}
